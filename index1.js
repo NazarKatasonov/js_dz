@@ -13,41 +13,67 @@
 //console.log("Привіт тебе звати", UserName )
 
 
-let celsius = 36
-let fahrenheit = (celsius * 9/5) + 32
-console.log(fahrenheit)
+//let celsius = 36
+//let fahrenheit = (celsius * 9/5) + 32
+//console.log(fahrenheit)
 //Створити змінну totalPrice для зберігання суми покупки в магазині. Застосувати знижку discount в розмірі 10% до 
 // цієї суми за допомогою оператора множення. Результат зберегти в змінній discountedPrice та вивести результат в консоль.
-let totalPrice = 5000;
-let discount = 0.1
-totalPrice = (totalPrice - (totalPrice * discount))
-console.log(totalPrice)
+//let totalPrice = 5000;
+//let discount = 0.1
+//totalPrice = (totalPrice - (totalPrice * discount))
+//console.log(totalPrice)
 //Це були завдання 4 та 1 далі по черзі
 
-let daysInMonth = 31
-let hoursInMonth = (daysInMonth * 24)
-console.log(hoursInMonth)
-let minutesInMonth = (daysInMonth * 1440)
-console.log(minutesInMonth)
+//let daysInMonth = 31
+//let hoursInMonth = (daysInMonth * 24)
+//console.log(hoursInMonth)
+//let minutesInMonth = (daysInMonth * 1440)
+//console.log(minutesInMonth)
 
-let health = 100
-let energy = 50
-console.log(health/2)
-console.log(energy/1.5)
+//let health = 100
+//let energy = 50
+//console.log(health/2)
+//console.log(energy/1.5)
 
-let floatNumber = 12.78
-console.log(Math.floor(floatNumber))
-let = floatString = "45.67"
-console.log(parseFloat(floatString))
+//let floatNumber = 12.78
+//console.log(Math.floor(floatNumber))
+//let = floatString = "45.67"
+//console.log(parseFloat(floatString))
 
-const intString = "123"
-console.log(parseInt(intString))
+//const intString = "123"
+//console.log(parseInt(intString))
 
-const number = 67
-console.log(Math.sqrt(number))
+//const number = 67
+//console.log(Math.sqrt(number))
 
-const integer = 42
-const stringNumber = "256"
-console.log(parseInt(stringNumber))
-let convertedInt = integer + stringNumber
-console.log(toString(convertedInt))
+//const integer = 42
+//const stringNumber = "256"
+//let convertedInt = integer + parseInt(stringNumber)
+//console.log(convertedInt)
+
+
+let result;
+result = 5 + 5 + '5'
+console.log(result)
+console.log(typeof result)
+
+
+
+
+let gmail = "nazariikryt22@gmail.com"
+console.log(gmail.includes("@"))
+
+
+
+
+const my = "My "
+const naame = "name "
+const is = "is "
+let fullName = my + naame + is + "Victor"
+console.log(fullName)
+
+
+let userName = "Туалет "
+let payment = "500$"
+let final = "Привіт " + userName + "до сплати " + payment
+console.log(alert(final))
