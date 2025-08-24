@@ -384,3 +384,18 @@
 //   'Картка-5',
 // ];
 
+
+
+// // Картку яку треба оновити
+// const cardToUpdate = 'Картка-4';
+// // Нове значення
+// const newCard = 'Оновлена картка-4';
+
+// // Знаходимо індекс
+// const index = cards.indexOf(cardToUpdate);
+
+// if (index !== -1) {
+//   cards[index] = newCard;
+// }
+
+// console.log(cards);
